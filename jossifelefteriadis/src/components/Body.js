@@ -16,6 +16,13 @@ import Wordpress from '../images/wordpress.png'
 
 const Body = () => (
   <section className='Container'>
+    <section className='Container__About-Section'>
+      <p className='Title'>ABOUT</p>
+      <p className='About-Description'>
+        Mission-driven full stack developer with a passion for innovative
+        products, quality, and overall user experience.
+      </p>
+    </section>
     <p className='Title'>SKILLS</p>
     <section className='Row'>
       <section className='Center'>

@@ -30,15 +30,28 @@
 }
 
 .Container {
+  display: flex;
+  flex-direction: column;
   color: #ffffff;
   margin-top: 5%;
 }
+
 .Title {
   font-size: 1.2rem;
   letter-spacing: 0.08rem;
   color: #f3e9e9;
   text-align: center;
   margin-bottom: 4%;
+}
+
+.Container__About-Section {
+  width: 70%;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 5%;
+  color: #f3e9e9;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
 }
 
 .Row {
