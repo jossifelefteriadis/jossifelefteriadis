@@ -8,15 +8,15 @@
   font-family: 'rooney-sans', Avenir-Book, Calibri, sans-serif;
   background-color: #282c34;
   min-height: 100vh;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .App-header {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-top: 1%;
 }
 
@@ -31,20 +31,19 @@
 }
 
 .Container {
-  display: flex;
-  justify-content: center;
   color: #ffffff;
-  margin-top: 3%;
+  margin-top: 5%;
 }
 
-.Center {
-  width: 70px;
-  height: 70px;
+.Row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
 }
 
 .Circle {
-  width: 120%;
-  height: 120%;
+  width: 70px;
+  height: 70px;
   background-color: #ffffff;
   border-radius: 50%;
   border-style: solid;
@@ -53,12 +52,17 @@
   animation: animateCircle 5s linear infinite;
 }
 
-.React {
-  height: 100%;
-  width: 100%;
-  background: url(./images/react.png);
+.Logo {
+  height: 60px;
+  width: 60px;
   background-size: cover;
   transform: translate(10%, -110%);
+  overflow: hidden;
+}
+
+.Description {
+  font-size: 1.5rem;
+  transform: translate(120%, -370%);
 }
 
 @keyframes animateCircle {
