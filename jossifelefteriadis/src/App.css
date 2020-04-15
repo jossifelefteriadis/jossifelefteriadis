@@ -41,9 +41,15 @@
   margin-bottom: 5%;
 }
 
+.Center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .Circle {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
   background-color: #ffffff;
   border-radius: 50%;
   border-style: solid;
@@ -53,16 +59,15 @@
 }
 
 .Logo {
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 55px;
   background-size: cover;
-  transform: translate(10%, -110%);
-  overflow: hidden;
+  transform: translateY(-130%);
 }
 
 .Description {
   font-size: 1.2rem;
-  transform: translate(15%, -200%);
+  margin-top: -50%;
 }
 
 @keyframes animateCircle {
