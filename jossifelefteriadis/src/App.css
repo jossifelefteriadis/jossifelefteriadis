@@ -61,8 +61,8 @@
 }
 
 .Description {
-  font-size: 1.5rem;
-  transform: translate(120%, -370%);
+  font-size: 1.2rem;
+  transform: translate(15%, -200%);
 }
 
 @keyframes animateCircle {
