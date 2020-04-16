@@ -40,18 +40,18 @@
   width: 70%;
   text-align: center;
   align-self: center;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
   color: #f3e9e9;
   font-size: 1.2rem;
   line-height: 1.4rem;
 }
 
 .Title {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   letter-spacing: 0.08rem;
   color: #f3e9e9;
   text-align: center;
-  margin-bottom: 4%;
+  margin-bottom: 5%;
   text-decoration: underline;
   text-decoration-color: #cd6c6c;
 }
@@ -97,6 +97,82 @@
 .Description {
   font-size: 1.2rem;
   margin-top: -50%;
+}
+
+.Container__Contact-Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*
+  On bigger screen
+  flex-direction: row;
+  justify-content: space-evenly;
+  */
+}
+
+.Contact-Link {
+  font-size: 1.2rem;
+  margin-bottom: 10%;
+  letter-spacing: 0.06rem;
+}
+
+a {
+  color: #f3ecec;
+  text-decoration: none;
+}
+
+.Hexagon {
+  width: 100px;
+  height: 55px;
+  background: #f3ecec;
+  position: relative;
+  margin-top: 13%;
+}
+
+.Hexagon:before {
+  content: '';
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 25px solid #f3ecec;
+}
+
+.Hexagon:after {
+  content: '';
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 25px solid #f3ecec;
+}
+
+.Connect-Logo {
+  background-size: cover;
+  transform: translateY(-100%);
+}
+
+.Connect-Email {
+  height: 45px;
+  width: 55px;
+  transform: translateY(-110%);
+}
+
+.Connect-Github {
+  height: 55px;
+  width: 55px;
+}
+
+.Connect-LinkedIn {
+  height: 45px;
+  width: 55px;
+  transform: translate(5%, -110%);
 }
 
 @keyframes animateCircle {
