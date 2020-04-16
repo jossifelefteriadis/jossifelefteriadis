@@ -5,7 +5,8 @@
 }
 
 .App {
-  font-family: 'rooney-sans', Avenir-Book, Calibri, sans-serif;
+  /*font-family: 'rooney-sans', Avenir-Book, Calibri, sans-serif;*/
+  font-family: 'Roboto', sans-serif;
   background-color: #282c34;
   min-height: 100vh;
 }
@@ -36,14 +37,6 @@
   margin-top: 5%;
 }
 
-.Title {
-  font-size: 1.2rem;
-  letter-spacing: 0.08rem;
-  color: #f3e9e9;
-  text-align: center;
-  margin-bottom: 4%;
-}
-
 .Container__About-Section {
   width: 70%;
   text-align: center;
@@ -51,7 +44,25 @@
   margin-bottom: 5%;
   color: #f3e9e9;
   font-size: 1.2rem;
-  line-height: 1.3rem;
+  line-height: 1.4rem;
+}
+
+.Title {
+  font-size: 1.2rem;
+  letter-spacing: 0.08rem;
+  color: #f3e9e9;
+  text-align: center;
+  margin-bottom: 4%;
+  text-decoration: underline;
+  text-decoration-color: #cd6c6c;
+}
+
+.Text {
+  background: #f3ecec;
+  color: #363636;
+  padding: 8% 5%;
+  border-radius: 8px;
+  text-align: left;
 }
 
 .Row {
