@@ -1,5 +1,7 @@
 import React from 'react'
 
+import About from './About'
+
 import ReactLogo from '../images/react.png'
 import Node from '../images/nodejs.png'
 import Javascript from '../images/javascript.png'
@@ -16,29 +18,7 @@ import Wordpress from '../images/wordpress.png'
 
 const Body = () => (
   <section className='Container'>
-    <section className='Container__About-Section'>
-      <p className='Title'>ABOUT</p>
-      <p className='About-Description'>
-        Mission-driven full stack developer with a passion for innovative
-        products, quality, and overall user experience.
-      </p>
-      <br />
-      <p className='About-Description Text'>
-        I’ve always sought out opportunities and challenges that are meaningful
-        to me.
-        <br />
-        <br />
-        Although my professional path has taken many twists and turns — from
-        small business owner and entrepreneur, to account manager and project
-        manager — I've never stopped engaging my passion to help others and
-        solve problems.
-        <br />
-        <br />
-        As a fullstack developer, I enjoy using my creativity, my attention to
-        details, and my mission-driven work ethic to somehow change the world.
-        That's why I'm excited to make big impact and be part of meaningful.
-      </p>
-    </section>
+    <About />
     <p className='Title'>SKILLS</p>
     <section className='Row'>
       <section className='Center'>
