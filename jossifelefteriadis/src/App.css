@@ -107,11 +107,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*
-  On bigger screen
-  flex-direction: row;
-  justify-content: space-evenly;
-  */
 }
 
 .Contact-Link {
@@ -126,35 +121,31 @@ a {
 }
 
 .Hexagon {
-  width: 100px;
-  height: 55px;
-  background: #f3ecec;
   position: relative;
+  width: 100px;
+  height: 57.74px;
+  background-color: #f3ecec;
   margin-top: 13%;
 }
 
-.Hexagon:before {
-  content: '';
-  position: absolute;
-  top: -25px;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-bottom: 25px solid #f3ecec;
-}
-
+.Hexagon:before,
 .Hexagon:after {
   content: '';
   position: absolute;
-  bottom: -25px;
-  left: 0;
   width: 0;
-  height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-top: 25px solid #f3ecec;
+}
+
+.Hexagon:before {
+  bottom: 100%;
+  border-bottom: 28.87px solid #f3ecec;
+}
+
+.Hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.87px solid #f3ecec;
 }
 
 .Connect-Logo {
@@ -163,8 +154,8 @@ a {
 }
 
 .Connect-Email {
-  height: 45px;
-  width: 55px;
+  height: 50px;
+  width: 60px;
   transform: translateY(-110%);
 }
 
@@ -185,5 +176,125 @@ a {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .Circle {
+    width: 120px;
+    height: 120px;
+  }
+
+  .Logo {
+    height: 65px;
+    width: 65px;
+    background-size: cover;
+    transform: translateY(-140%);
+  }
+
+  .Description {
+    font-size: 1.2rem;
+    margin-top: -40%;
+  }
+  .Container__Contact-Section {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .Github {
+    margin-top: -4%;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .Title {
+    font-size: 1.6rem;
+  }
+
+  .Container__About-Section {
+    margin-bottom: 5%;
+  }
+
+  .Row:last-child {
+    margin-bottom: 7%;
+  }
+
+  .Circle {
+    width: 160px;
+    height: 160px;
+  }
+
+  .Logo {
+    height: 85px;
+    width: 85px;
+    background-size: cover;
+    transform: translateY(-140%);
+  }
+
+  .Description {
+    font-size: 1.4rem;
+    margin-top: -40%;
+  }
+  .Container__Contact-Section {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .Hexagon {
+    position: relative;
+    width: 200px;
+    height: 115.47px;
+    background-color: #f3ecec;
+    margin-top: 13%;
+  }
+
+  .Hexagon:before,
+  .Hexagon:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+  }
+
+  .Hexagon:before {
+    bottom: 100%;
+    border-bottom: 57.74px solid #f3ecec;
+  }
+
+  .Hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 57.74px solid #f3ecec;
+  }
+
+  .Connect-Logo {
+    background-size: cover;
+    transform: translateY(-100%);
+  }
+
+  .Connect-Email {
+    height: 100px;
+    width: 110px;
+    transform: translateY(-110%);
+  }
+
+  .Connect-Github {
+    height: 110px;
+    width: 110px;
+  }
+
+  .Connect-LinkedIn {
+    height: 100px;
+    width: 110px;
+    transform: translate(5%, -110%);
+  }
+
+  .Github {
+    margin-top: -4%;
+  }
+
+  .Contact-Link {
+    font-size: 1.4rem;
   }
 }

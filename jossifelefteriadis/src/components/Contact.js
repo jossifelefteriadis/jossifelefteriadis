@@ -25,7 +25,7 @@ const Contact = () => (
         <a
           href='https://github.com/jossifelefteriadis'
           target='_blank'
-          className='Contact-Link'
+          className='Contact-Link Github'
         >
           github.com/jossifelefteriadis
         </a>
