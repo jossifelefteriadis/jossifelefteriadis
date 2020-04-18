@@ -6,13 +6,14 @@ import Javascript from '../images/javascript.png'
 import Html from '../images/html5.png'
 import Css from '../images/css3.png'
 import Sass from '../images/sass.png'
+import Sockets from '../images/sockets.png'
+import Github from '../images/github.png'
 import MongoDB from '../images/mongodb.png'
 import Postgresql from '../images/postgresql.png'
 import Angular from '../images/angular.png'
-import Github from '../images/github.png'
-import Webpack from '../images/webpack.png'
 import Photoshop from '../images/photoshop.png'
 import Wordpress from '../images/wordpress.png'
+import Webpack from '../images/webpack.png'
 
 const Skills = () => (
   <section>
@@ -56,6 +57,18 @@ const Skills = () => (
     <section className='Row'>
       <section className='Center'>
         <section className='Circle'></section>
+        <img src={Sockets} className='Logo' alt='Sockets.io' />
+        <p className='Description'>Sockets</p>
+      </section>
+      <section className='Center'>
+        <section className='Circle'></section>
+        <img src={Github} className='Logo' alt='Github' />
+        <p className='Description'>Github</p>
+      </section>
+    </section>
+    <section className='Row'>
+      <section className='Center'>
+        <section className='Circle'></section>
         <img src={MongoDB} className='Logo' alt='MongoDB' />
         <p className='Description'>MongoDB</p>
       </section>
@@ -73,20 +86,8 @@ const Skills = () => (
       </section>
       <section className='Center'>
         <section className='Circle'></section>
-        <img src={Github} className='Logo' alt='Github' />
-        <p className='Description'>Github</p>
-      </section>
-    </section>
-    <section className='Row'>
-      <section className='Center'>
-        <section className='Circle'></section>
         <img src={Photoshop} className='Logo' alt='Photoshop' />
         <p className='Description'>Photoshop</p>
-      </section>
-      <section className='Center'>
-        <section className='Circle'></section>
-        <img src={Webpack} className='Logo' alt='Webpack' />
-        <p className='Description'>Webpack</p>
       </section>
     </section>
     <section className='Row'>
@@ -94,6 +95,11 @@ const Skills = () => (
         <section className='Circle'></section>
         <img src={Wordpress} className='Logo' alt='Wordpress' />
         <p className='Description'>Wordpress</p>
+      </section>
+      <section className='Center'>
+        <section className='Circle'></section>
+        <img src={Webpack} className='Logo' alt='Webpack' />
+        <p className='Description'>Webpack</p>
       </section>
     </section>
   </section>
