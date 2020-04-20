@@ -207,6 +207,13 @@ a {
 }
 
 @media all and (min-width: 1440px) {
+  .About-Description {
+    font-size: 1.6rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 1.6rem;
+  }
+
   .Title {
     font-size: 1.6rem;
   }

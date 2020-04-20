@@ -3,10 +3,6 @@ import React from 'react'
 const About = () => (
   <section className='Container__About-Section'>
     <p className='Title'>ABOUT</p>
-    <p className='About-Description'>
-      Mission-driven full stack developer with a passion for innovative
-      products, quality, and overall user experience.
-    </p>
     <br />
     <p className='About-Description Text'>
       I’ve always sought out opportunities and challenges that are meaningful to

@@ -1,13 +1,15 @@
 import React from 'react'
 
-import About from './About'
+import Opener from './Opener'
 import Skills from './Skills'
+import About from './About'
 import Contact from './Contact'
 
 const Body = () => (
   <section className='Container'>
-    <About />
+    <Opener />
     <Skills />
+    <About />
     <Contact />
   </section>
 )
