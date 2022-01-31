@@ -1,22 +1,17 @@
-import React from "react";
-import { Route } from "react-router-dom";
+import React from 'react'
 
-import Opener from "./Opener";
-import Skills from "./Skills";
-import About from "./About";
-import Contact from "./Contact";
-import VirusEscapePrivacyPolicy from "./VirusEscapePP";
+import Opener from './Opener'
+import Skills from './Skills'
+import About from './About'
+import Contact from './Contact'
 
 const Body = () => (
-  <section className="Container">
+  <section className='Container'>
     <Opener />
     <Skills />
     <About />
     <Contact />
-    <Route path="/virus-escape-privacy-policy">
-      <VirusEscapePrivacyPolicy />
-    </Route>
   </section>
-);
+)
 
-export default Body;
+export default Body
