@@ -1,18 +1,14 @@
-import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import React from 'react'
+import './App.css'
 
-import "./App.css";
-
-import Site from "./components/Site";
+import Site from './components/Site'
 
 function App() {
   return (
-    <BrowserRouter>
-      <section className="App">
-        <Site />
-      </section>
-    </BrowserRouter>
-  );
+    <section className='App'>
+      <Site />
+    </section>
+  )
 }
 
-export default App;
+export default App
