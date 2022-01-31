@@ -1,5 +1,5 @@
 import React from "react";
-import { Route } from "react-router-dom";
+// import { Route } from "react-router-dom";
 
 import Opener from "./Opener";
 import Skills from "./Skills";
@@ -13,9 +13,9 @@ const Body = () => (
     <Skills />
     <About />
     <Contact />
-    <Route path="/virus-escape-privacy-policy">
+    {/* <Route path="/virus-escape-privacy-policy">
       <VirusEscapePrivacyPolicy />
-    </Route>
+    </Route> */}
   </section>
 );
 
