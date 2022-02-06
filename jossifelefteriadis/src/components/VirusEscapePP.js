@@ -1,8 +1,9 @@
 import React from "react";
 
 const VirusEscapePP = () => (
-  <section>
+  <section className="PrivacySection">
     <h2>PRIVACY POLICY</h2>
+    <br />
     <p>
       Jossif Elefteriadis built the Virus Escape app as an Ad Supported app.
       This SERVICE is provided by Jossif Elefteriadis at no cost and is intended
@@ -26,7 +27,9 @@ const VirusEscapePP = () => (
       otherwise defined in this Privacy Policy.
     </p>
     <p>
-      <strong>Information Collection and Use</strong>
+      <br />
+      <h3>Information Collection and Use</h3>
+      <br />
     </p>
     <p>
       For a better experience, while using our Service, I may require you to
@@ -36,7 +39,9 @@ const VirusEscapePP = () => (
       in any way.
     </p>
     <p>
-      <strong>Log Data</strong>
+      <br />
+      <h3>Log Data</h3>
+      <br />
     </p>
     <p>
       I want to inform you that whenever you use my Service, in a case of an
@@ -48,7 +53,9 @@ const VirusEscapePP = () => (
       other statistics.
     </p>
     <p>
-      <strong>Cookies</strong>
+      <br />
+      <h3>Cookies</h3>
+      <br />
     </p>
     <p>
       Cookies are files with a small amount of data that are commonly used as
@@ -64,17 +71,19 @@ const VirusEscapePP = () => (
       use some portions of this Service.
     </p>
     <p>
-      <strong>Service Providers</strong>
+      <br />
+      <h3>Service Providers</h3>
+      <br />
     </p>
     <p>
       I may employ third-party companies and individuals due to the following
       reasons:
     </p>
     <ul>
-      <li>To facilitate our Service;</li>
-      <li>To provide the Service on our behalf;</li>
-      <li>To perform Service-related services; or</li>
-      <li>To assist us in analyzing how our Service is used.</li>
+      <li>To facilitate our Service</li>
+      <li>To provide the Service on our behalf</li>
+      <li>To perform Service-related services</li>
+      <li>To assist us in analyzing how our Service is used</li>
     </ul>
     <p>
       I want to inform users of this Service that these third parties have
@@ -83,7 +92,9 @@ const VirusEscapePP = () => (
       disclose or use the information for any other purpose.
     </p>
     <p>
-      <strong>Security</strong>
+      <br />
+      <h3>Security</h3>
+      <br />
     </p>
     <p>
       I value your trust in providing us your Personal Information, thus we are
@@ -93,7 +104,9 @@ const VirusEscapePP = () => (
       absolute security.
     </p>
     <p>
-      <strong>Links to Other Sites</strong>
+      <br />
+      <h3>Links to Other Sites</h3>
+      <br />
     </p>
     <p>
       This Service may contain links to other sites. If you click on a
@@ -104,7 +117,9 @@ const VirusEscapePP = () => (
       of any third-party sites or services.
     </p>
     <p>
-      <strong>Children's Privacy</strong>
+      <br />
+      <h3>Children's Privacy</h3>
+      <br />
     </p>
     <section>
       <p>
@@ -124,7 +139,9 @@ const VirusEscapePP = () => (
       </p>
     </section>
     <p>
-      <strong>Changes to This Privacy Policy</strong>
+      <br />
+      <h3>Changes to This Privacy Policy</h3>
+      <br />
     </p>
     <p>
       I may update our Privacy Policy from time to time. Thus, you are advised
@@ -133,12 +150,16 @@ const VirusEscapePP = () => (
     </p>
     <p>This policy is effective as of 2022-01-31</p>
     <p>
-      <strong>Contact Us</strong>
+      <br />
+      <h3>Contact Us</h3>
+      <br />
     </p>
     <p>
       If you have any questions or suggestions about my Privacy Policy, do not
       hesitate to contact me at jossif.elefteriadis@gmail.com.
     </p>
+    <br />
+    <br />
   </section>
 );
 
