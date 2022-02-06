@@ -16,13 +16,6 @@ export default class Body extends React.Component {
             path="/virus-escape-privacy-policy"
             element={<VirusEscapePrivacyPolicy />}
           />
-          {/* <VirusEscapePrivacyPolicy />
-          </Route> */}
-          {/* <Route
-            path="/"
-            element={(<Opener /> <Skills /> <About /> <Contact />)}
-          /> */}
-          {/* </Route> */}
           <Route
             path="/"
             element={
@@ -34,13 +27,6 @@ export default class Body extends React.Component {
               </>
             }
           />
-          {/* <Route path="/" element={<Skills />} />
-          <Route path="/" element={<About />} />
-          <Route path="/" element={<Contact />} /> */}
-          {/* <Opener />
-          <Skills />
-          <About />
-          <Contact /> */}
         </Routes>
       </section>
     );

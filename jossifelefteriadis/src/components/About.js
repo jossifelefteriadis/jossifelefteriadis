@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 
 const About = () => (
-  <section className='Container__About-Section'>
-    <p className='Title'>ABOUT</p>
+  <section className="Container__About-Section">
+    <p className="Title">ABOUT</p>
     <br />
-    <p className='About-Description Text'>
+    <p className="About-Description Text">
       I’ve always sought out opportunities and challenges that are meaningful to
       me.
       <br />
@@ -20,6 +20,6 @@ const About = () => (
       something meaningful.
     </p>
   </section>
-)
+);
 
-export default About
+export default About;
