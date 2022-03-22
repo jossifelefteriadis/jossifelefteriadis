@@ -4,7 +4,7 @@ import logo from "../images/jossif.png";
 const Header = () => (
   <header className="App-header">
     <img src={logo} className="App-logo" alt="logo" />
-    <p>JS Dev | Web3</p>
+    <p>js Dev | Web3</p>
   </header>
 );
 
