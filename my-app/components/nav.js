@@ -17,14 +17,8 @@ export default function Nav() {
     <section className="fixed w-full h-20 shadow-xl z-[100]">
       <section className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image src={Logo} alt="Logo image" width="125" height="50" />
-        {/* <Link href="/">
-          <h2>
-            <span>JOSSIF</span>
-            <span>ELEFTERIADIS</span>
-          </h2>
-        </Link> */}
         <section>
-          <ul className="hidden md:flex">
+          <ul className="hidden md:flex mr-4">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-bottom">
                 Home
@@ -51,7 +45,7 @@ export default function Nav() {
               </li>
             </Link>
           </ul>
-          <section onClick={handleNav} className="md:hidden">
+          <section onClick={handleNav} className="md:hidden mr-2">
             <AiOutlineMenu size={25} />
           </section>
         </section>
