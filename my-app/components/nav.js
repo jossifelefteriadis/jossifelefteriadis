@@ -102,7 +102,7 @@ export default function Nav() {
                 <li className="py-4 text-sm">Contact</li>
               </Link>
             </ul>
-            <section className="pt-40">
+            <section className="pt-16 sm:pt-28">
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Lets'Connect
               </p>
