@@ -5,7 +5,7 @@ import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
-import Logo from "../public/assets/je.png";
+import Logo from "../public/assets/logo.png";
 
 export default function Nav() {
   const [nav, setNav] = useState(false);
@@ -16,7 +16,7 @@ export default function Nav() {
   return (
     <section className="fixed w-full h-20 shadow-xl z-[100]">
       <section className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image src={Logo} alt="/" width="125" height="50" />
+        <Image src={Logo} alt="Logo image" width="125" height="50" />
         {/* <Link href="/">
           <h2>
             <span>JOSSIF</span>
@@ -70,7 +70,7 @@ export default function Nav() {
         >
           <section>
             <section className="flex w-full items-center justify-between">
-              <Image src={Logo} alt="/" width="87" height="35" />
+              <Image src={Logo} alt="Logo image" width="87" height="35" />
               <section
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
