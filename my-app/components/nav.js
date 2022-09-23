@@ -103,7 +103,7 @@ export default function Nav() {
               </Link>
             </ul>
             <section className="pt-40">
-              <p className="uppercase tracking-widest text-[]#5651e5">
+              <p className="uppercase tracking-widest text-[#5651e5]">
                 Lets'Connect
               </p>
               <section className="flex items-center justify-between my-4 w-full sm:w-[80%]">
