@@ -31,6 +31,16 @@ export default function About() {
             contracts written in solidity and have gained a lot of experience
             while developing fullstack applications during my journey.
           </p>
+          <p className="py-2 text-gray-600">
+            During my free time I find big interest in contributing to open
+            source projects within web3 - such as LearnWeb3 DAO, Thirdweb,
+            amongst others. And also helping community members with dev
+            questions within respective discord servers.
+            <br />
+            <br />
+            Besides code, sports is a big part of my life (mainly padel,
+            basketball, and gym).
+          </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
               Check out some of my latest projects.
