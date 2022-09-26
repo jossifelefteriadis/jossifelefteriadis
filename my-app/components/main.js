@@ -1,7 +1,7 @@
 import React from "react";
+import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 
 export default function Main() {
   return (
@@ -21,18 +21,38 @@ export default function Main() {
             Ethereum smart contracts written in solidity.
           </p>
           <section className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <section className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaLinkedinIn />
-            </section>
-            <section className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaGithub />
-            </section>
-            <section className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <AiOutlineMail />
-            </section>
-            <section className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <BsFillPersonLinesFill />
-            </section>
+            <a
+              href="https://www.linkedin.com/in/jossifelefteriadis/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <section className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaLinkedinIn />
+              </section>
+            </a>
+            <a
+              href="https://github.com/jossifelefteriadis"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <section className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaGithub />
+              </section>
+            </a>
+            <a
+              href="https://twitter.com/ElefteriadisJ"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <section className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaTwitter />
+              </section>
+            </a>
+            <Link href="/#contact">
+              <section className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <AiOutlineMail />
+              </section>
+            </Link>
           </section>
         </section>
       </section>
