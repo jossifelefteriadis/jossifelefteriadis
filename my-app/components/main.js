@@ -9,11 +9,11 @@ export default function Main() {
       <section className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <section>
           <h1 className="py-4 text-gray-700">
-            Hi, I'm <span className="text-[#5651e5]">Jossif</span>
+            Hi, I&apos;m <span className="text-[#5651e5]">Jossif</span>
           </h1>
           <h1 className="py-2 text-gray-700">A Fullstack Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I'm focused on building responsive frontend applications with a well
+            I&apos;m focused on building responsive frontend applications with a well
             structured and reusable backend. <br />
             <br />I strongly believe smart contracts along with Blockchain
             technology will change the Internet for the better. I find myself

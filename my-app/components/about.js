@@ -17,7 +17,7 @@ export default function About() {
           </p>
           <h2 className="py-4">Who I am</h2>
           <p className="py-2 text-gray-600">
-            I've always been very passionate about software development and
+            I&apos;ve always been very passionate about software development and
             engineering, because of the possibilities that tech industry gives me
             while developing simple solutions to complex problems. The
             motivation to learn new concepts has given me lots of experience in

@@ -30,7 +30,7 @@ export default function Mynft() {
             I built this application in Next JS, hosted on Github, and deployed
             to Vercel. The purpose of this app is to demonstrate my knowledge
             working with Next JS, the Polygon network, and accessing API
-            endpoints. I've also used RainbowKit, ethers.js and wagmi for
+            endpoints. I&apos;ve also used RainbowKit, ethers.js and wagmi for
             connecting wallet interacting with the network.
             <br />
             <br />

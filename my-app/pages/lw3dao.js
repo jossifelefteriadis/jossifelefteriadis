@@ -28,11 +28,11 @@ export default function Lw3dao() {
           <h2>Overview</h2>
           <p>
             This application was built by myself and 3 other developers as a 36
-            hour hackathon project using Next JS, Solidity, and Tailwind. It's
+            hour hackathon project using Next JS, Solidity, and Tailwind. It&apos;s
             hosted on Github and deployed to Vercel. LW3 DAO is an online
-            community helping web2 developers move into the web3 space - it's an
-            open source community I've been contributing to. The application
-            we've built in the hackathon is for this community, and is also
+            community helping web2 developers move into the web3 space - it&apos;s an
+            open source community I&apos;ve been contributing to. The application
+            we&apos;ve built in the hackathon is for this community, and is also
             called LW3 DAO. <br />
             <br />
             Our goal was to have functionality for the user to connect their
