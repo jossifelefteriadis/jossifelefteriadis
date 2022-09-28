@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import emailjs from '@emailjs/browser'
 
 import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
@@ -8,6 +9,24 @@ import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 import Profile from "../public/assets/profile.jpeg";
 
 export default function Contact() {
+  const SERVICE_ID = process.env.NEXT_PUBLIC_SERVICE_ID;
+  const TEMPLATE_ID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
+  const PUBLIC_KEY = process.env.NEXT_PUBLIC_PUBLIC_KEY;
+
+  const form = useRef();
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target , PUBLIC_KEY)
+      .then((result) => {
+          console.log(`Message was send successfully: ${result.text}`);
+      }, (error) => {
+          console.log(`Message was not sent successfully: ${error.text}`);
+      });
+    e.target.reset();
+  }
+
   return (
     <section id="contact" className="w-full lg:h-screen">
       <section className="max-w-[1240px] m-auto px-2 py-16 w-full">
@@ -77,13 +96,14 @@ export default function Contact() {
 
           <section className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <section className="p-4">
-              <form>
+              <form ref={form} onSubmit={handleSubmit}>
                 <section className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <section className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
+                      name="name"
                     />
                   </section>
                   <section className="flex flex-col">
@@ -91,6 +111,7 @@ export default function Contact() {
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="email"
+                      name="email"
                     />
                   </section>
                 </section>
@@ -99,6 +120,7 @@ export default function Contact() {
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
+                    name="subject"
                   />
                 </section>
                 <section className="flex flex-col py-2">
@@ -106,6 +128,7 @@ export default function Contact() {
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows="10"
+                    name="message"
                   ></textarea>
                 </section>
                 <button className="w-full p-4 text-gray-100 mt-4">
