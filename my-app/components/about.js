@@ -18,10 +18,10 @@ export default function About() {
           <h2 className="py-4">Who I am</h2>
           <p className="py-2 text-gray-600">
             I've always been very passionate about software development and
-            engineering, because of possibilities that tech industry gives me
+            engineering, because of the possibilities that tech industry gives me
             while developing simple solutions to complex problems. The
-            motivation to learn new concepts has given me lot of experience in
-            Javascript, React, Node, Google Cloud Platform while developing
+            motivation to learn new concepts has given me lots of experience in
+            Javascript, React, Node, Solidity, Google Cloud Platform, amongst other - while developing
             Fullstack applications.
           </p>
           <p className="py-2 text-gray-600">
@@ -29,7 +29,7 @@ export default function About() {
             will change the Internet for the better. I find myself extremely
             passionate working with blockchain technologies like Ethereum smart
             contracts written in solidity and have gained a lot of experience
-            while developing fullstack applications during my journey.
+            while developing fullstack decentralized applications during my journey.
           </p>
           <p className="py-2 text-gray-600">
             During my free time I find big interest in contributing to open
