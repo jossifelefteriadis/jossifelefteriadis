@@ -17,7 +17,7 @@ export default function Nav() {
 
   useEffect(() => {
     if (router.asPath === "/lw3dao" || router.asPath === "/mynft") {
-      setNavBg("transparent");
+      setNavBg("#000000");
       setLinkColor("#ecf0f3");
     } else {
       setNavBg("#ecf0f3");

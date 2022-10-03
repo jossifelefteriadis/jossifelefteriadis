@@ -7,7 +7,7 @@ import MyNft from "../public/assets/projects/mynft.png";
 
 export default function Mynft() {
   return (
-    <section className="w-full">
+    <section className="w-full pt-20">
       <section className="w-screen h-[50vh] relative">
         <section className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
         <Image
