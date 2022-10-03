@@ -19,7 +19,7 @@ import Ts from "../public/assets/skills/ts.png";
 
 export default function Skills() {
   return (
-    <section id="skills" className="w-full lg:h-screen p-2">
+    <section id="skills" className="w-full md:mt-28 lg:h-screen p-2">
       <section className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Skills
