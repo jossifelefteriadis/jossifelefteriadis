@@ -6,18 +6,26 @@ export default function Hero() {
   return (
     <section className="w-full flex justify-center py-24">
       <section className="w-full flex flex-col md:flex-row items-center">
-        <section className="w-1/2 flex justify-center md:justify-end">
+        <section className="w-1/2 h-[600px] flex flex-col justify-evenly items-center">
           <Avatar
             icon={<AvatarIcon />}
             color="primary"
             src=""
             className="w-96 h-96 bg-[#101017] p-1 ring-2 ring-[#272834] dark:ring-[#272834] text-[#272834] drop-shadow-2xl rounded-full"
           />
-          {/* <section className=" w-36 h-42 bg-contain drop-shadow-2xl p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500">
-            s
-          </section> */}
+          <section>
+            <section className="text-3xl font-semibold">
+              Jossif Elefteriadis
+            </section>
+            <section className="w-fit bg-[#141414] my-2 py-1 px-4 text-lg">
+              <span className="bg-gradient-to-r from-[#aafff8] to-[#e1b1fc] inline-block text-transparent bg-clip-text">
+                DevRel @ t3rn
+              </span>
+            </section>
+            <section>social media</section>
+          </section>
         </section>
-        <section className="w-full bg-red-300">hej</section>
+        <section className="w-full">carousel here</section>
       </section>
     </section>
   );
