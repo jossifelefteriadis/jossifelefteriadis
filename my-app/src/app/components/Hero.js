@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { Avatar, AvatarIcon } from "@nextui-org/react";
 
+import Socials from "./Socials";
+
 export default function Hero() {
   return (
     <section className="w-full flex justify-center">
@@ -22,7 +24,9 @@ export default function Hero() {
                 DevRel @ t3rn
               </span>
             </section>
-            <section>social media</section>
+            <section className="mt-3">
+              <Socials />
+            </section>
           </section>
         </section>
         <section className="w-full">carousel here</section>
