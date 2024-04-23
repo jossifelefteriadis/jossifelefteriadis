@@ -4,14 +4,14 @@ import { Avatar, AvatarIcon } from "@nextui-org/react";
 
 export default function Hero() {
   return (
-    <section className="w-full flex justify-center py-24">
+    <section className="w-full flex justify-center">
       <section className="w-full flex flex-col md:flex-row items-center">
         <section className="w-1/2 h-[600px] flex flex-col justify-evenly items-center">
           <Avatar
             icon={<AvatarIcon />}
             color="primary"
             src=""
-            className="w-96 h-96 bg-[#101017] p-1 ring-2 ring-[#272834] dark:ring-[#272834] text-[#272834] drop-shadow-2xl rounded-full"
+            className="w-64 h-64 bg-[#101017] p-1 ring-2 ring-[#272834] dark:ring-[#272834] text-[#272834] drop-shadow-2xl rounded-full"
           />
           <section>
             <section className="text-3xl font-semibold">
