@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Avatar, AvatarIcon } from "@nextui-org/react";
 
 import Socials from "./Socials";
+import PinnedVideos from "./PinnedVideos";
 
 export default function Hero() {
   return (
@@ -29,7 +30,9 @@ export default function Hero() {
             </section>
           </section>
         </section>
-        <section className="w-full">carousel here</section>
+        <section className="w-full">
+          <PinnedVideos />
+        </section>
       </section>
     </section>
   );
