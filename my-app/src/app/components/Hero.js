@@ -7,9 +7,9 @@ import PinnedVideos from "./PinnedVideos";
 
 export default function Hero() {
   return (
-    <section className="w-full flex justify-center">
-      <section className="w-full flex flex-col md:flex-row items-center">
-        <section className="w-1/2 h-[600px] flex flex-col justify-evenly items-center">
+    <section className="w-full h-screen flex justify-center">
+      <section className="w-full flex flex-col md:flex-row">
+        <section className="w-3/5 h-[600px] flex flex-col justify-evenly items-center">
           <Avatar
             icon={<AvatarIcon />}
             color="primary"
