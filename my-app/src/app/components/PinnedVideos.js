@@ -5,6 +5,8 @@ export default function PinnedVideos() {
   return (
     <section className="w-11/12 h-[600px] flex flex-col justify-evenly pt-10">
       <section className="flex justify-evenly py-10 rounded-xl relative">
+        <FaFilm className="absolute top-3 left-5 text-xl" />
+        <span className="absolute top-2.5 left-12">RECORDINGS</span>
         <a href="https://www.youtube.com/watch?v=WVEqX8DL4KE" target="_blank">
           <Image
             isZoomed
@@ -34,6 +36,8 @@ export default function PinnedVideos() {
         </a>
       </section>
       <section className="flex justify-evenly py-10 rounded-xl relative">
+        <FaScrewdriverWrench className="absolute top-3 left-5 text-xl" />
+        <span className="absolute top-2.5 left-12">PROJECTS</span>
         <Image
           isZoomed
           src="/assets/blur-marketplace.png"
