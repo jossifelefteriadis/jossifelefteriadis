@@ -6,7 +6,7 @@ import PinnedVideos from "./PinnedVideos";
 
 export default function Hero() {
   return (
-    <section className="w-full h-screen flex justify-center">
+    <section className="w-full h-full flex justify-center">
       <section className="w-full flex flex-col md:flex-row">
         <PinnedPersonalInfo />
         <section className="w-full">
