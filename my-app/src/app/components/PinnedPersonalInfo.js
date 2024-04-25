@@ -4,15 +4,15 @@ import Socials from "./Socials";
 
 export default function PinnedPersonalInfo() {
   return (
-    <section className="w-3/5 h-[600px] flex flex-col justify-evenly items-center">
+    <section className="w-full md:w-3/5 h-[300px] md:h-[600px] flex flex-col justify-evenly items-center">
       <Avatar
         icon={<AvatarIcon />}
         color="primary"
         src=""
-        className="w-64 h-64 bg-[#101017] p-1 ring-2 ring-[#272834] dark:ring-[#272834] text-[#272834] drop-shadow-2xl rounded-full"
+        className="w-40 h-40 md:w-48 md:h-48 lg:w-64 lg:h-64 bg-[#101017] p-1 ring-2 ring-[#272834] dark:ring-[#272834] text-[#272834] drop-shadow-2xl rounded-full"
       />
       <section>
-        <section className="text-3xl font-semibold">
+        <section className="text-lg md:text-2xl lg:text-3xl font-semibold">
           Jossif Elefteriadis
         </section>
         <section className="w-fit bg-[#141414] my-2 py-1 px-4 text-lg">
