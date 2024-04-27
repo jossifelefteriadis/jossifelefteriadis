@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="w-11/12 px-24 text-lg text-gray-100">
+    <section className="w-full md:w-11/12 px-8 md:px-24 text-lg text-gray-100">
       <p>
         Hi, I&apos;m Jossif Elefteriadis. With over 9 years of experience,
         I&apos;ve developed a diverse skill set spanning web and fullstack
