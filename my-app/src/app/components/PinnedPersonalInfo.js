@@ -4,7 +4,7 @@ import Socials from "./Socials";
 
 export default function PinnedPersonalInfo() {
   return (
-    <section className="w-full md:w-3/5 h-[300px] md:h-[600px] flex flex-col justify-evenly items-center">
+    <section className="w-full xl:w-2/5 md:w-3/5 h-[300px] md:h-[600px] flex flex-col justify-evenly items-center">
       <Avatar
         icon={<AvatarIcon />}
         color="primary"
