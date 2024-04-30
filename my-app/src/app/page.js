@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import Hero from "./components/Hero";
 import About from "./components/About";
+import FeaturedBlogPosts from "./components/FeaturedBlogPosts";
 
 export default function Home() {
   return (
@@ -13,8 +14,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
-      <section className="flex">
+      <section className="flex flex-col lg:flex-row items-center">
         <About />
+        <FeaturedBlogPosts />
       </section>
     </main>
   );
