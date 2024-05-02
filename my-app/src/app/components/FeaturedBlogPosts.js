@@ -13,7 +13,7 @@ export default function FeaturedBlogPosts() {
     <section className="w-full flex flex-col md:flex-row lg:flex-col xl:flex-row justify-evenly items-center md:items-stretch lg:items-center xl:items-stretch mt-20">
       <Card
         isFooterBlurred
-        className="w-2/3 md:w-1/3 lg:w-2/3 xl:w-1/3 h-[300px] col-span-12 sm:col-span-7 mb-16 md:mt-0"
+        className="w-2/3 md:w-1/3 lg:w-2/3 xl:w-5/12 2xl:w-1/3 h-[300px] col-span-12 sm:col-span-7 mb-16 md:mt-0"
       >
         <CardHeader className="absolute z-10 flex-col items-start bg-gray-700/10 backdrop-blur-sm">
           <p className="w-full text-small text-white text-center uppercase font-bold">
@@ -48,7 +48,7 @@ export default function FeaturedBlogPosts() {
       </Card>
       <Card
         isFooterBlurred
-        className="w-2/3 md:w-1/3 lg:w-2/3 xl:w-1/3 h-[300px] col-span-12 sm:col-span-7"
+        className="w-2/3 md:w-1/3 lg:w-2/3 xl:w-5/12 2xl:w-1/3 h-[300px] col-span-12 sm:col-span-7"
       >
         <CardHeader className="absolute z-10 flex-col items-start bg-gray-700/80">
           <p className="w-full text-small text-white text-center uppercase font-bold">
