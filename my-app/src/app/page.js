@@ -4,6 +4,7 @@ import Image from "next/image";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import FeaturedBlogPosts from "./components/FeaturedBlogPosts";
+import CV from "./components/CV";
 
 export default function Home() {
   return (
@@ -17,6 +18,9 @@ export default function Home() {
       <section className="flex flex-col lg:flex-row items-center">
         <About />
         <FeaturedBlogPosts />
+      </section>
+      <section>
+        <CV />
       </section>
     </main>
   );
