@@ -1,4 +1,4 @@
-import Clients from "./Clients";
+import ClientsAndEmployers from "./ClientsAndEmployers";
 import Skills from "./Skills";
 import TechInterests from "./TechInterests";
 
@@ -9,7 +9,7 @@ export default function CV() {
         CV similar section with clients and employers/tech interest/techstack
         I&apos;m using or used
       </p> */}
-      <Clients />
+      <ClientsAndEmployers />
       <Skills />
       <TechInterests />
     </section>
