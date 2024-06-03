@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import FeaturedBlogPosts from "./components/FeaturedBlogPosts";
 import CV from "./components/CV";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       </section>
       <section>
         <CV />
+        <Contact />
       </section>
     </main>
   );
