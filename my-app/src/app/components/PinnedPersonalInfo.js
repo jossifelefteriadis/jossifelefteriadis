@@ -8,7 +8,7 @@ export default function PinnedPersonalInfo() {
       <Avatar
         icon={<AvatarIcon />}
         color="primary"
-        src=""
+        src="/assets/jossif-profile.png"
         className="w-40 h-40 md:w-48 md:h-48 lg:w-64 lg:h-64 bg-[#101017] p-1 ring-2 ring-[#272834] dark:ring-[#272834] text-[#272834] drop-shadow-2xl rounded-full"
       />
       <section>
