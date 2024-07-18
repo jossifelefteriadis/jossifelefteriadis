@@ -21,7 +21,9 @@ export default function Socials() {
       <a href="https://github.com/jossifelefteriadis" target="_blank">
         <FaGithub className="text-lg md:text-3xl cursor-pointer hover:scale-110 ease-in duration-200" />
       </a>
-      <FaEnvelope className="text-lg md:text-3xl cursor-pointer hover:scale-110 ease-in duration-200" />
+      <a href="/#contact">
+        <FaEnvelope className="text-lg md:text-3xl cursor-pointer hover:scale-110 ease-in duration-200" />
+      </a>
     </section>
   );
 }
