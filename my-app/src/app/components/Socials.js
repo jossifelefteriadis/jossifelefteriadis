@@ -12,7 +12,7 @@ export default function Socials() {
       <a href="https://warpcast.com/jossif" target="_blank">
         <SiFarcaster className="text-lg md:text-3xl cursor-pointer hover:scale-110 ease-in duration-200" />
       </a>
-      <a href="https://twitter.com/ElefteriadisJ" target="_blank">
+      <a href="https://x.com/ElefteriadisJ" target="_blank">
         <FaXTwitter className="text-lg md:text-3xl cursor-pointer hover:scale-110 ease-in duration-200" />
       </a>
       <a href="https://www.linkedin.com/in/jossifelefteriadis/" target="_blank">
