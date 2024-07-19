@@ -1,8 +1,8 @@
 export default function ClientsAndEmployers() {
   return (
-    <section className="w-1/6 flex flex-col items-center">
-      <h2 className="w-full text-xl mb-6">Client and Employers</h2>
-      <p className="w-full flex flex-col mb-6">
+    <section className="w-full lg:w-1/6 flex flex-col lg:items-center pl-8 lg:pl-0">
+      <h2 className="lg:w-full text-xl mb-6">Client and Employers</h2>
+      <p className="lg:w-full flex flex-col mb-6">
         <span>Developer Relations at t3rn</span>
         <a
           href="https://www.t3rn.io/"
@@ -12,7 +12,7 @@ export default function ClientsAndEmployers() {
           t3rn.io
         </a>
       </p>
-      <p className="w-full flex flex-col mb-6">
+      <p className="lg:w-full flex flex-col mb-6">
         <span>Developer Advocate at Moralis</span>
         <a
           href="https://moralis.io/"
@@ -22,7 +22,7 @@ export default function ClientsAndEmployers() {
           moralis.io
         </a>
       </p>
-      <p className="w-full flex flex-col mb-6">
+      <p className="lg:w-full flex flex-col mb-6">
         <span>Software Developer at Bonnier News</span>
         <a
           href="https://www.bonniernews.se/"
@@ -32,7 +32,7 @@ export default function ClientsAndEmployers() {
           bonniernews.se
         </a>
       </p>
-      <p className="w-full flex flex-col mb-6">
+      <p className="lg:w-full flex flex-col mb-6">
         <span>Software Developer at SALT</span>
         <a
           href="https://salt.dev/"
