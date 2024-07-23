@@ -1,6 +1,6 @@
 export default function TechInterests() {
   return (
-    <section className="w-1/6 flex flex-col items-center">
+    <section className="w-full lg:w-1/6 flex flex-col lg:items-center mt-10 lg:mt-0 pl-8 lg:pl-0">
       <h2 className="w-full text-xl mb-6">Current tech & DeFi interests</h2>
       <p className="w-full flex flex-col mb-6">
         <span>Stilto</span>
