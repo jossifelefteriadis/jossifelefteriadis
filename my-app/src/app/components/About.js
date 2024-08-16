@@ -14,7 +14,7 @@ export default function About() {
         and demonstrating how to use onchain APIs. I&apos;ve also been leading
         development of technical documentation, managing and nurturing a
         community of over 50,000 members, providing detailed feedback to
-        engineers, and spearheading QA as well as PM initiatives.
+        engineers, and spearheading PM as well as QA initiatives.
       </p>
     </section>
   );
