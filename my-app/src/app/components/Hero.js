@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import PinnedPersonalInfo from "./PinnedPersonalInfo";
-import PinnedVideos from "./PinnedVideos";
+import PinnedVideosProjects from "./PinnedVideosProjects";
 
 export default function Hero() {
   return (
@@ -10,7 +10,7 @@ export default function Hero() {
       <section className="w-full flex flex-col md:flex-row">
         <PinnedPersonalInfo />
         <section className="w-full">
-          <PinnedVideos />
+          <PinnedVideosProjects />
         </section>
       </section>
     </section>
