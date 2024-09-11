@@ -17,7 +17,7 @@ export default function PinnedPersonalInfo() {
         </section>
         <section className="w-fit bg-[#141414] my-2 py-1 px-4 text-lg">
           <span className="bg-gradient-to-r from-[#aafff8] to-[#e1b1fc] inline-block text-transparent bg-clip-text">
-            DevRel @ t3rn
+            DevRel / PO @ t3rn
           </span>
         </section>
         <section className="mt-3">
