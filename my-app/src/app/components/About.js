@@ -18,7 +18,7 @@ export default function About() {
         a community of 50,000+ members, provided actionable feedback to
         engineers, and driven key product management initiatives, from strategy
         to execution, ensuring alignment between technical teams and user
-        experience goals.-
+        experience goals.
       </p>
     </section>
   );
